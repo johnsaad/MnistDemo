@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mnist.LeNet.Server", "Mnist.LeNet.Server\Mnist.LeNet.Server.csproj", "{38BBE103-D402-4911-A5FD-C6EDE4C850A7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Mnist.LeNet.Trainer", "Mnist.LeNet.Trainer\Mnist.LeNet.Trainer.pyproj", "{C4863FF8-4496-4704-8153-71030541AF77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mnist.DesktopApp", "Mnist.DesktopApp\Mnist.DesktopApp.csproj", "{F5E2B70C-8163-4C7F-881D-E34A47AA1C1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38BBE103-D402-4911-A5FD-C6EDE4C850A7}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{38BBE103-D402-4911-A5FD-C6EDE4C850A7}.Debug|Any CPU.Build.0 = Debug|x64
+		{38BBE103-D402-4911-A5FD-C6EDE4C850A7}.Release|Any CPU.ActiveCfg = Release|x64
+		{38BBE103-D402-4911-A5FD-C6EDE4C850A7}.Release|Any CPU.Build.0 = Release|x64
+		{C4863FF8-4496-4704-8153-71030541AF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4863FF8-4496-4704-8153-71030541AF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E2B70C-8163-4C7F-881D-E34A47AA1C1B}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{F5E2B70C-8163-4C7F-881D-E34A47AA1C1B}.Debug|Any CPU.Build.0 = Debug|x64
+		{F5E2B70C-8163-4C7F-881D-E34A47AA1C1B}.Release|Any CPU.ActiveCfg = Release|x64
+		{F5E2B70C-8163-4C7F-881D-E34A47AA1C1B}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D1CBEC4-EDB0-4400-9A8F-74F496184A78}
+	EndGlobalSection
+EndGlobal
